@@ -9,13 +9,13 @@
 ## Key Vocab
 
 - **Class**: a bundle of data and functionality. Can be copied and modified to
-accomplish a wide variety of programming tasks.
+  accomplish a wide variety of programming tasks.
 - **Initialize**: create a working copy of a class using its `__init__()`
-method.
+  method.
 - **Instance**: one specific working copy of a class. It is created when a
-class's `__init__()` method is called.
+  class's `__init__()` method is called.
 - **Object**: the more common name for an instance. The two can usually be used
-interchangeably.
+  interchangeably.
 - **Function**: a series of steps that create, transform, and move data.
 - **Method**: a function that is defined inside of a class.
 
@@ -37,13 +37,13 @@ information and behaviors of an individual dog.
 
 ## Defining a Class
 
-Think of a class like a blueprint that defines how to build an object. The
-`Dog` class is different from an individual dog just as the blueprints that
-show how to build a house are not the actual house. A Python class both
-contains the instructions for creating new objects and has the ability to
-create those objects. Calling `.new` on the `Dog` class is like getting a brand
-new dog object from an assembly line which produces a series of similar dog
-objects based on the same `Dog` template.
+Think of a class like a blueprint that defines how to build an object. The `Dog`
+class is different from an individual dog just as the blueprints that show how
+to build a house are not the actual house. A Python class both contains the
+instructions for creating new objects and has the ability to create those
+objects. Calling `.new` on the `Dog` class is like getting a brand new dog
+object from an assembly line which produces a series of similar dog objects
+based on the same `Dog` template.
 
 Here's what our `Dog` class would look like:
 
@@ -99,8 +99,8 @@ function or method: a closed set of parentheses (`()`). This creates our
 
 **Instantiate** means bringing a new object to life, a new individual, like a
 particular dog, like Snoopy or Lassie or Rover. Each particular dog is an
-individual that was **instantiated** when we called `Dog()` to birth it into
-our world of programming.
+individual that was **instantiated** when we called `Dog()` to birth it into our
+world of programming.
 
 We call these individuals, each specific dog or version of our class,
 **instances**. An **instance** is a single occurrence of an **object.**
@@ -116,7 +116,7 @@ fido
 
 snoopy = Dog()
 snoopy
-# <__main__.Dog object at 0x1049a87f0>
+# <__main__.Dog object at 0x104971d90>
 ```
 
 `snoopy` and `fido` are two different variables pointing at separate instances
@@ -146,10 +146,10 @@ lassie
 Notice that every time you make an instance of a class, Ruby tells you that the
 return value is something that looks like
 `# <__main__.Dog object at 0x1049a87f0>`. This is the default way that Python
-communicates to you that you are dealing with an instance of a particular
-class. The `__main__` tells you that the object is accessible from a global
-scope in the current module (file or shell) that you're working in.
-`0x1049a87f0` describes the instance's location in memory.
+communicates to you that you are dealing with an instance of a particular class.
+The `__main__` tells you that the object is accessible from a global scope in
+the current module (file or shell) that you're working in. `0x1049a87f0`
+describes the instance's location in memory.
 
 Each of these instances is totally unique, even though they are all born from
 `Dog`.
@@ -180,9 +180,9 @@ is like a template, or a blueprint, for creating objects with similar
 characteristics.
 
 To use the class to create individual objects, call the class with closed
-parentheses as you would a function or method. This will **instantiate**
-(create a new **instance** of) an object from the class. Each instance created
-will be a unique object in memory.
+parentheses as you would a function or method. This will **instantiate** (create
+a new **instance** of) an object from the class. Each instance created will be a
+unique object in memory.
 
 ## Resources
 
