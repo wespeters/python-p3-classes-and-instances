@@ -143,8 +143,8 @@ lassie
 # <__main__.Dog object at 0x10498c040>
 ```
 
-Notice that every time you make an instance of a class, Ruby tells you that the
-return value is something that looks like
+Notice that every time you make an instance of a class, Python tells you that
+the return value is something that looks like
 `# <__main__.Dog object at 0x1049a87f0>`. This is the default way that Python
 communicates to you that you are dealing with an instance of a particular
 class. The `__main__` tells you that the object is accessible from a global
