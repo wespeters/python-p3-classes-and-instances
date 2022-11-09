@@ -6,6 +6,8 @@
 - Describe a Python instance.
 - Create an instance of a class.
 
+***
+
 ## Key Vocab
 
 - **Class**: a bundle of data and functionality. Can be copied and modified to
@@ -18,6 +20,8 @@
   interchangeably.
 - **Function**: a series of steps that create, transform, and move data.
 - **Method**: a function that is defined inside of a class.
+
+***
 
 ## Introduction
 
@@ -34,6 +38,8 @@ app.
 How can we tell our Python program to deal with these dogs? Well, we can write a
 `Dog` class that produces individual dog objects, each of which contains all the
 information and behaviors of an individual dog.
+
+***
 
 ## Defining a Class
 
@@ -71,6 +77,8 @@ class MyClass
 ```
 
 With this code alone, we can now make new dogs!
+
+***
 
 ## Creating Instances of Classes
 
@@ -173,6 +181,8 @@ snoopy == fido
 Classes are the blueprints that define the behavior and information our objects
 will contain. They let us manufacture and instantiate new instances.
 
+***
+
 ## Conclusion
 
 In summary: to create a new class definition, use the `class` keyword. A class
@@ -183,6 +193,8 @@ To use the class to create individual objects, call the class with closed
 parentheses as you would a function or method. This will **instantiate** (create
 a new **instance** of) an object from the class. Each instance created will be a
 unique object in memory.
+
+***
 
 ## Resources
 
